@@ -27,16 +27,12 @@ export default function Footer() {
                   <path d="M21.409 9.353a2.998 2.998 0 0 1 0 5.294L8.597 21.614C6.534 22.737 4 21.277 4 18.968V5.033c0-2.31 2.534-3.769 4.597-2.648z" fill="currentColor"></path>
                 </svg></a>
             </div>
-            <div style={{ marginTop: '2rem' }}>
-              <img src="/assets/logo-studio-fer_dark.svg" alt="Logo Studio Fernanda Valentina" style={{ height: '300px', mixBlendMode: 'screen' }} />
-            </div>
           </div>
           <div className="footer-col">
             <div className="footer-col-title">LINKS RÁPIDOS</div>
             <ul>
               <li><a href="#about">O Studio</a></li>
               <li><a href="#services">Serviços</a></li>
-              <li><a href="#gallery">Galeria</a></li>
               <li><a href="#team">Especialistas</a></li>
               <li><a href="#booking">Agendar</a></li>
             </ul>
@@ -80,6 +76,9 @@ export default function Footer() {
               <p>Seg-Sex: 09:00 - 20:00<br />Sáb: 09:00 - 18:00<br />Dom: Fechado</p>
             </div>
           </div>
+        </div>
+        <div style={{ display: 'flex', justifyContent: 'center', margin: '4rem 0 2rem' }}>
+          <img src="https://github.com/leonvpetri/Imagens/raw/main/assets/logo-studio-fer_dark.avif" alt="Logo Studio Fernanda Valentina" style={{ height: '250px', mixBlendMode: 'screen', maxWidth: '100%', objectFit: 'contain' }} />
         </div>
         <div className="footer-bottom">
           <p>2025 STUDIO FERNANDA VALENTINA. Todos os direitos reservados.</p>
