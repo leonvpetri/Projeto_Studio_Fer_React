@@ -19,20 +19,19 @@ export default function Navbar() {
     <>
       <nav className={`nav ${isScrolled ? 'scrolled' : ''}`} id="nav">
         <a
-          className="nav-logo"
+          className="nav-logo-container"
           href="#"
-          style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px', textDecoration: 'none' }}
         >
           <video
+            className="nav-logo-video"
             src="https://github.com/leonvpetri/Imagens/raw/main/assets/video-fer-logo.mp4"
             autoPlay
             loop
             muted
             playsInline
-            style={{ height: '180px' }}
           />
-          <div style={{ textAlign: 'center', marginTop: '5px' }}>
-            <span style={{ display: 'block', fontFamily: 'var(--display)', fontSize: '1.6rem', letterSpacing: '0.1em', color: 'var(--white)' }}>
+          <div className="nav-logo-text-container">
+            <span className="nav-logo-text">
               STUDIO <span style={{ color: 'var(--gold)' }}>FERNANDA</span> VALENTINA
             </span>
           </div>
@@ -40,7 +39,6 @@ export default function Navbar() {
         <ul className="nav-links">
           <li><a href="#about">O Studio</a></li>
           <li><a href="#services">Serviços</a></li>
-          <li><a href="#gallery">Galeria</a></li>
           <li><a href="#team">Especialistas</a></li>
           <li><a href="#testimonials">Avaliações</a></li>
         </ul>
@@ -55,7 +53,6 @@ export default function Navbar() {
       <div className={`mobile-nav ${isMobileNavOpen ? 'active' : ''}`} id="mobileNav">
         <a href="#about" onClick={closeMobileNav}>O Studio</a>
         <a href="#services" onClick={closeMobileNav}>Serviços</a>
-        <a href="#gallery" onClick={closeMobileNav}>Galeria</a>
         <a href="#team" onClick={closeMobileNav}>Especialistas</a>
         <a href="#testimonials" onClick={closeMobileNav}>Avaliações</a>
         <a href="#booking" onClick={closeMobileNav}>Agendar</a>

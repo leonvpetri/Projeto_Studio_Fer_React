@@ -7,7 +7,7 @@ export default function Instagram() {
           <span className="section-tag-text">Siga-nos</span>
           <span className="section-tag-line"></span>
         </div>
-        <h2 className="section-title" style={{ fontSize: '2.5rem', marginTop: '1rem' }}>
+        <h2 className="section-title instagram-title">
           @STUDIOFERNANDAVALENTINA
         </h2>
         <a className="instagram-handle" href="https://instagram.com/studiofernandavalentina" target="_blank" rel="noopener noreferrer">
@@ -20,22 +20,34 @@ export default function Instagram() {
       </div>
       <div className="instagram-grid">
         <a className="instagram-item reveal" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 1" src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=400&q=80" />
+          <img alt="Instagram post 1" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-1.jpg" />
         </a>
         <a className="instagram-item reveal reveal-delay-1" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 2" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=400&q=80" />
+          <img alt="Instagram post 2" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-10.jpg" />
         </a>
         <a className="instagram-item reveal reveal-delay-2" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 3" src="https://images.unsplash.com/photo-1544161515-4af6b1d4b1b2?auto=format&fit=crop&w=400&q=80" />
+          <img alt="Instagram post 3" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-2.jpg" />
         </a>
         <a className="instagram-item reveal reveal-delay-3" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 4" src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=400&q=80" />
+          <img alt="Instagram post 4" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-4.jpg" />
         </a>
         <a className="instagram-item reveal reveal-delay-4" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 5" src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=400&q=80" />
+          <img alt="Instagram post 5" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-5.jpg" />
         </a>
-        <a className="instagram-item reveal reveal-delay-5" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 6" src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=400&q=80" />
+        <a className="instagram-item reveal" href="#" target="_blank" rel="noopener noreferrer">
+          <img alt="Instagram post 6" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-6.jpg" />
+        </a>
+        <a className="instagram-item reveal reveal-delay-1" href="#" target="_blank" rel="noopener noreferrer">
+          <img alt="Instagram post 7" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-7.jpg" />
+        </a>
+        <a className="instagram-item reveal reveal-delay-2" href="#" target="_blank" rel="noopener noreferrer">
+          <img alt="Instagram post 8" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-8.jpg" />
+        </a>
+        <a className="instagram-item reveal reveal-delay-3" href="#" target="_blank" rel="noopener noreferrer">
+          <img alt="Instagram post 9" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-9.webp" />
+        </a>
+        <a className="instagram-item reveal reveal-delay-4" href="#" target="_blank" rel="noopener noreferrer">
+          <img alt="Instagram post 10" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-3.png" />
         </a>
       </div>
     </section>
