@@ -14,7 +14,7 @@ export default function Team() {
         <div className="team-card reveal">
           <div className="team-card-img">
             <img alt="Fernanda Valentina" className="object-cover bg-center"
-              src="https://github.com/leonvpetri/Imagens/raw/main/assets/fer-quem-sou.avif" />
+              src="/assets/fer-quem-sou.avif" />
           </div>
           <div className="team-card-info">
             <div>
@@ -44,7 +44,7 @@ export default function Team() {
         <div className="team-card reveal reveal-delay-1">
           <div className="team-card-img">
             <img alt="Glaucimar Martins" className="object-cover bg-center"
-              src="https://github.com/leonvpetri/Imagens/raw/main/assets/glau-quem-sou.avif" />
+              src="/assets/glau-quem-sou.avif" />
           </div>
           <div className="team-card-info">
             <div>

@@ -78,7 +78,7 @@ export default function Footer() {
           </div>
         </div>
         <div style={{ display: 'flex', justifyContent: 'center', margin: '4rem 0 2rem' }}>
-          <img src="https://github.com/leonvpetri/Imagens/raw/main/assets/logo-studio-fer_dark.avif" alt="Logo Studio Fernanda Valentina" style={{ height: '250px', mixBlendMode: 'screen', maxWidth: '100%', objectFit: 'contain' }} />
+          <img src="/assets/logo-studio-fer_dark.avif" alt="Logo Studio Fernanda Valentina" style={{ height: '250px', mixBlendMode: 'screen', maxWidth: '100%', objectFit: 'contain' }} />
         </div>
         <div className="footer-bottom">
           <p>2025 STUDIO FERNANDA VALENTINA. Todos os direitos reservados.</p>

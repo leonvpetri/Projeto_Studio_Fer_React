@@ -3,7 +3,7 @@ export default function Booking() {
     <section className="booking" id="booking">
       <div className="booking-inner">
         <div className="booking-image reveal">
-          <img alt="Agende sua visita" src="https://github.com/leonvpetri/Imagens/raw/main/assets/agenda-visita-1.webp" />
+          <img alt="Agende sua visita" src="/assets/agenda-visita-1.webp" />
         </div>
         <div className="booking-form-wrapper">
           <div className="section-tag reveal">

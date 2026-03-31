@@ -24,7 +24,7 @@ export default function Navbar() {
         >
           <video
             className="nav-logo-video"
-            src="https://github.com/leonvpetri/Imagens/raw/main/assets/video-fer-logo.mp4"
+            src="/assets/video-fer-logo.mp4"
             autoPlay
             loop
             muted

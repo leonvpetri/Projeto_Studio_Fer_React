@@ -20,34 +20,34 @@ export default function Instagram() {
       </div>
       <div className="instagram-grid">
         <a className="instagram-item reveal" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 1" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-1.jpg" />
+          <img alt="Instagram post 1" src="/assets/instagram-1.jpg" />
         </a>
         <a className="instagram-item reveal reveal-delay-1" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 2" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-10.jpg" />
+          <img alt="Instagram post 2" src="/assets/instagram-10.jpg" />
         </a>
         <a className="instagram-item reveal reveal-delay-2" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 3" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-2.jpg" />
+          <img alt="Instagram post 3" src="/assets/instagram-2.jpg" />
         </a>
         <a className="instagram-item reveal reveal-delay-3" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 4" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-4.jpg" />
+          <img alt="Instagram post 4" src="/assets/instagram-4.jpg" />
         </a>
         <a className="instagram-item reveal reveal-delay-4" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 5" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-5.jpg" />
+          <img alt="Instagram post 5" src="/assets/instagram-5.jpg" />
         </a>
         <a className="instagram-item reveal" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 6" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-6.jpg" />
+          <img alt="Instagram post 6" src="/assets/instagram-6.jpg" />
         </a>
         <a className="instagram-item reveal reveal-delay-1" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 7" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-7.jpg" />
+          <img alt="Instagram post 7" src="/assets/instagram-7.jpg" />
         </a>
         <a className="instagram-item reveal reveal-delay-2" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 8" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-8.jpg" />
+          <img alt="Instagram post 8" src="/assets/instagram-8.jpg" />
         </a>
         <a className="instagram-item reveal reveal-delay-3" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 9" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-9.webp" />
+          <img alt="Instagram post 9" src="/assets/instagram-9.webp" />
         </a>
         <a className="instagram-item reveal reveal-delay-4" href="#" target="_blank" rel="noopener noreferrer">
-          <img alt="Instagram post 10" src="https://github.com/leonvpetri/Imagens/raw/main/assets/instagram-3.png" />
+          <img alt="Instagram post 10" src="/assets/instagram-3.png" />
         </a>
       </div>
     </section>

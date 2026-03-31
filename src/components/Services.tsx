@@ -2,17 +2,17 @@ import { useState, useRef } from 'react';
 
 const galleryData: Record<string, { src: string; alt: string }[]> = {
   'CABELO & ESTILO': [
-    { src: 'https://github.com/leonvpetri/Imagens/raw/main/assets/Esta-1.avif', alt: 'Corte e Estilo 1' },
-    { src: 'https://github.com/leonvpetri/Imagens/raw/main/assets/Esta-2.avif', alt: 'Corte e Estilo 2' },
-    { src: 'https://github.com/leonvpetri/Imagens/raw/main/assets/Esta-3.avif', alt: 'Corte e Estilo 3' },
-    { src: 'https://github.com/leonvpetri/Imagens/raw/main/assets/Esta-4.avif', alt: 'Corte e Estilo 4' },
-    { src: 'https://github.com/leonvpetri/Imagens/raw/main/assets/Esta-6.avif', alt: 'Corte e Estilo 5' },
-    { src: 'https://github.com/leonvpetri/Imagens/raw/main/assets/esta-9.avif', alt: 'Corte e Estilo 6' }
+    { src: '/assets/Esta-1.avif', alt: 'Corte e Estilo 1' },
+    { src: '/assets/Esta-2.avif', alt: 'Corte e Estilo 2' },
+    { src: '/assets/Esta-3.avif', alt: 'Corte e Estilo 3' },
+    { src: '/assets/Esta-4.avif', alt: 'Corte e Estilo 4' },
+    { src: '/assets/Esta-6.avif', alt: 'Corte e Estilo 5' },
+    { src: '/assets/esta-9.avif', alt: 'Corte e Estilo 6' }
   ],
   'BELEZA & ESTÉTICA': [
-    { src: 'https://github.com/leonvpetri/Imagens/raw/main/assets/estetica-1.avif', alt: 'Beleza e Estética 1' },
-    { src: 'https://github.com/leonvpetri/Imagens/raw/main/assets/estetica-2.jfif', alt: 'Beleza e Estética 2' },
-    { src: 'https://github.com/leonvpetri/Imagens/raw/main/assets/estetica-3.jfif', alt: 'Beleza e Estética 3' }
+    { src: '/assets/estetica-1.avif', alt: 'Beleza e Estética 1' },
+    { src: '/assets/estetica-2.jfif', alt: 'Beleza e Estética 2' },
+    { src: '/assets/estetica-3.jfif', alt: 'Beleza e Estética 3' }
   ],
   'EXPERIÊNCIAS & BEM-ESTAR': [
     { src: 'https://images.unsplash.com/photo-1544161515-4af6b1d4b1b2?auto=format&fit=crop&w=800&q=80', alt: 'Bem-estar 1' },
@@ -158,7 +158,7 @@ export default function Services() {
           {activeCategory === 'BELEZA & ESTÉTICA' && (
             <div className="hidden-gallery-video" style={{ marginTop: '2rem', width: '100%', borderRadius: '4px', overflow: 'hidden' }}>
               <video 
-                src="https://github.com/leonvpetri/Imagens/raw/main/assets/video-estetica-2.mp4" 
+                src="/assets/video-estetica-2.mp4" 
                 controls 
                 autoPlay 
                 muted 
@@ -171,7 +171,7 @@ export default function Services() {
           {activeCategory === 'CABELO & ESTILO' && (
             <div className="hidden-gallery-video" style={{ marginTop: '2rem', width: '100%', borderRadius: '4px', overflow: 'hidden' }}>
               <video 
-                src="https://github.com/leonvpetri/Imagens/raw/main/assets/video-corte-1.mp4" 
+                src="/assets/video-corte-1.mp4" 
                 controls 
                 autoPlay 
                 muted 
